@@ -1,0 +1,225 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #6f6d6db4;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;   
+}
+
+.user-info {
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.section {
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.popup h2 {
+    margin-top: 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical; /* Permet le redimensionnement vertical */
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Styles pour l'icône de la flèche */
+.arrow {
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: 5px; /* Ajustez la marge selon vos préférences */
+}
+
+/* Styles pour le bouton de déconnexion */
+.logout-btn {
+    display: none; /* Le bouton est initialement caché */
+    background-color: #ff6347; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    padding: 8px 12px; /* Espacement intérieur */
+    border: none; /* Pas de bordure */
+    border-radius: 4px; /* Coins arrondis */
+    text-decoration: none; /* Pas de soulignement */
+    font-size: 14px; /* Taille du texte */
+}
+
+/* Style pour le conteneur du header */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd; /* Ligne de séparation */
+}
+
+/* Style pour le conteneur des informations de l'utilisateur */
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+/* Style pour le conteneur principal */
+.client-info-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style pour les éléments de texte */
+.client-info-container p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Style pour le message d'erreur */
+.error-message {
+    color: red;
+    font-size: 16px;
+}
+
+/* Style pour le bouton de fermeture */
+.close-btn {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Style pour le bouton de fermeture au survol */
+.close-btn:hover {
+    background-color: #f0f0f0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
